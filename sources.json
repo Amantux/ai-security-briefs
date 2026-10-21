@@ -1,0 +1,22 @@
+{
+  "user_agent": "ai-security-briefs/0.1 (personal local news digest; https://github.com/Amantux/ai-security-briefs)",
+  "sources": [
+    {"id": "thehackernews",         "type": "rss", "url": "https://feeds.feedburner.com/TheHackersNews",                      "label": "The Hacker News",           "core_topic": true},
+    {"id": "bleepingcomputer",      "type": "rss", "url": "https://www.bleepingcomputer.com/feed/",                           "label": "BleepingComputer",          "core_topic": true},
+    {"id": "darkreading",           "type": "rss", "url": "https://www.darkreading.com/rss.xml",                              "label": "Dark Reading",              "core_topic": true},
+    {"id": "krebsonsecurity",       "type": "rss", "url": "https://krebsonsecurity.com/feed/",                                "label": "Krebs on Security",         "core_topic": true},
+    {"id": "projectzero",           "type": "atom", "url": "https://googleprojectzero.blogspot.com/feeds/posts/default",      "label": "Google Project Zero",       "core_topic": true},
+    {"id": "arstechnica-security",  "type": "rss", "url": "https://arstechnica.com/security/feed/",                           "label": "Ars Technica Security",     "core_topic": true},
+    {"id": "theregister-security",  "type": "atom", "url": "https://www.theregister.com/security/headlines.atom",             "label": "The Register Security",     "core_topic": true},
+    {"id": "cisa",                  "type": "rss", "url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",            "label": "CISA Advisories",           "core_topic": true},
+    {"id": "openai-news",           "type": "rss", "url": "https://openai.com/news/rss.xml",                                  "label": "OpenAI News",               "core_topic": true, "slice": 30},
+    {"id": "google-blog",           "type": "rss", "url": "https://blog.google/rss/",                                         "label": "Google Blog",               "core_topic": true},
+    {"id": "googleresearch",        "type": "rss", "url": "https://research.google/blog/rss/",                                "label": "Google Research",           "core_topic": true, "slice": 30},
+    {"id": "meta-engineering",      "type": "rss", "url": "https://engineering.fb.com/feed/",                                 "label": "Meta Engineering",          "core_topic": true},
+    {"id": "huggingface",           "type": "rss", "url": "https://huggingface.co/blog/feed.xml",                             "label": "Hugging Face Blog",         "core_topic": true, "slice": 30},
+    {"id": "reddit-netsec",         "type": "rss", "url": "https://www.reddit.com/r/netsec/.rss",                             "label": "r/netsec",                  "core_topic": true},
+    {"id": "reddit-cybersecurity",  "type": "rss", "url": "https://www.reddit.com/r/cybersecurity/.rss",                      "label": "r/cybersecurity",           "core_topic": true},
+    {"id": "reddit-localllama",     "type": "rss", "url": "https://www.reddit.com/r/LocalLLaMA/.rss",                         "label": "r/LocalLLaMA",              "core_topic": false},
+    {"id": "reddit-machinelearning","type": "rss", "url": "https://www.reddit.com/r/MachineLearning/.rss",                    "label": "r/MachineLearning",         "core_topic": false}
+  ]
+}
